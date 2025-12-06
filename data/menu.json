@@ -1,0 +1,203 @@
+[
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "description": "Creamy tomato gravy with tender chicken, rich and flavorful.",
+    "priceCents": 39900,
+    "image": "https://picsum.photos/seed/butterchicken/1600/900",
+    "category": "Mains"
+  },
+  {
+    "id": "paneer-tikka",
+    "name": "Paneer Tikka",
+    "description": "Smoky grilled paneer with spices and peppers.",
+    "priceCents": 32900,
+    "image": "https://picsum.photos/seed/paneertikka/1600/900",
+    "category": "Starters"
+  },
+  {
+    "id": "dal-makhani",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils in buttery sauce.",
+    "priceCents": 27900,
+    "image": "https://picsum.photos/seed/dalmakhani/1600/900",
+    "category": "Mains"
+  },
+  {
+    "id": "garlic-naan",
+    "name": "Garlic Naan",
+    "description": "Soft tandoori bread topped with garlic butter.",
+    "priceCents": 8900,
+    "image": "https://picsum.photos/seed/garlicnaan/1600/900",
+    "category": "Breads"
+  },
+  {
+    "id": "gulab-jamun",
+    "name": "Gulab Jamun",
+    "description": "Warm milk-solid dumplings in rose-cardamom syrup.",
+    "priceCents": 11900,
+    "image": "https://picsum.photos/seed/gulabjamun/1600/900",
+    "category": "Desserts"
+  },
+  {
+    "id": "samosa",
+    "name": "Samosa",
+    "description": "Crispy pastry filled with spiced potatoes and peas.",
+    "priceCents": 7900,
+    "image": "https://picsum.photos/seed/samosa/1600/900",
+    "category": "Starters"
+  },
+  {
+    "id": "chicken-tikka",
+    "name": "Chicken Tikka",
+    "description": "Char-grilled chicken pieces marinated in spices.",
+    "priceCents": 34900,
+    "image": "https://picsum.photos/seed/chickentikka/1600/900",
+    "category": "Starters"
+  },
+  {
+    "id": "palak-paneer",
+    "name": "Palak Paneer",
+    "description": "Spinach gravy with soft paneer cubes.",
+    "priceCents": 29900,
+    "image": "https://picsum.photos/seed/palakpaneer/1600/900",
+    "category": "Mains"
+  },
+  {
+    "id": "chicken-biryani",
+    "name": "Chicken Biryani",
+    "description": "Fragrant basmati rice layered with spiced chicken.",
+    "priceCents": 35900,
+    "image": "https://picsum.photos/seed/chickenbiryani/1600/900",
+    "category": "Mains"
+  },
+  {
+    "id": "tandoori-roti",
+    "name": "Tandoori Roti",
+    "description": "Whole wheat flatbread baked in a tandoor.",
+    "priceCents": 6900,
+    "image": "https://picsum.photos/seed/tandooriroti/1600/900",
+    "category": "Breads"
+  },
+  {
+    "id": "rasmalai",
+    "name": "Rasmalai",
+    "description": "Soft cheese patties soaked in saffron milk.",
+    "priceCents": 13900,
+    "image": "https://picsum.photos/seed/rasmalai/1600/900",
+    "category": "Desserts"
+  },
+  {
+    "id": "kheer",
+    "name": "Kheer",
+    "description": "Creamy rice pudding with cardamom and nuts.",
+    "priceCents": 9900,
+    "image": "https://picsum.photos/seed/kheer/1600/900",
+    "category": "Desserts"
+  },
+  {
+    "id": "mango-lassi",
+    "name": "Mango Lassi",
+    "description": "Refreshing mango yogurt drink.",
+    "priceCents": 6900,
+    "image": "https://picsum.photos/seed/mangolassi/1600/900",
+    "category": "Beverages"
+  },
+  {
+    "id": "masala-chai",
+    "name": "Masala Chai",
+    "description": "Spiced Indian tea with milk.",
+    "priceCents": 4900,
+    "image": "https://picsum.photos/seed/masalachai/1600/900",
+    "category": "Beverages"
+  },
+  {
+    "id": "aloo-tikki",
+    "name": "Aloo Tikki",
+    "description": "Crispy potato patties with chutneys.",
+    "priceCents": 8900,
+    "image": "https://picsum.photos/seed/alootikki/1600/900",
+    "category": "Starters"
+  },
+  {
+    "id": "hara-bhara-kabab",
+    "name": "Hara Bhara Kabab",
+    "description": "Spinach and pea patties with spices.",
+    "priceCents": 9900,
+    "image": "https://picsum.photos/seed/harabhara/1600/900",
+    "category": "Starters"
+  },
+  {
+    "id": "rogan-josh",
+    "name": "Rogan Josh",
+    "description": "Kashmiri-style lamb curry with aromatic spices.",
+    "priceCents": 41900,
+    "image": "https://picsum.photos/seed/roganjosh/1600/900",
+    "category": "Mains"
+  },
+  {
+    "id": "chole-bhature",
+    "name": "Chole Bhature",
+    "description": "Spiced chickpeas with fluffy fried bread.",
+    "priceCents": 29900,
+    "image": "https://picsum.photos/seed/cholebhature/1600/900",
+    "category": "Mains"
+  },
+  {
+    "id": "malai-kofta",
+    "name": "Malai Kofta",
+    "description": "Soft dumplings in creamy cashew gravy.",
+    "priceCents": 30900,
+    "image": "https://picsum.photos/seed/malaikofta/1600/900",
+    "category": "Mains"
+  },
+  {
+    "id": "butter-naan",
+    "name": "Butter Naan",
+    "description": "Soft naan finished with butter.",
+    "priceCents": 7900,
+    "image": "https://picsum.photos/seed/butternaan/1600/900",
+    "category": "Breads"
+  },
+  {
+    "id": "laccha-paratha",
+    "name": "Laccha Paratha",
+    "description": "Flaky, layered whole-wheat paratha.",
+    "priceCents": 9900,
+    "image": "https://picsum.photos/seed/lacchaparatha/1600/900",
+    "category": "Breads"
+  },
+  {
+    "id": "jalebi",
+    "name": "Jalebi",
+    "description": "Crisp spirals soaked in saffron syrup.",
+    "priceCents": 9900,
+    "image": "https://picsum.photos/seed/jalebi/1600/900",
+    "category": "Desserts"
+  },
+  {
+    "id": "kulfi",
+    "name": "Kulfi",
+    "description": "Dense Indian ice cream with pistachio.",
+    "priceCents": 10900,
+    "image": "https://picsum.photos/seed/kulfi/1600/900",
+    "category": "Desserts"
+  },
+  {
+    "id": "sweet-lassi",
+    "name": "Sweet Lassi",
+    "description": "Classic sweet yogurt drink.",
+    "priceCents": 5900,
+    "image": "https://picsum.photos/seed/sweetlassi/1600/900",
+    "category": "Beverages"
+  },
+  {
+    "id": "masala-soda",
+    "name": "Masala Soda",
+    "description": "Refreshing spiced soda with lemon.",
+    "priceCents": 4900,
+    "image": "https://picsum.photos/seed/masalasoda/1600/900",
+    "category": "Beverages"
+  }
+]
+
