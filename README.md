@@ -1,62 +1,216 @@
-# Taste of North - Restaurant Booking & Ordering
+# 🍽️ Taste of North - Restaurant Management System
 
-Taste of North is a full-stack restaurant ordering and booking demo built with Next.js (React), featuring:
+A modern, full-stack restaurant ordering and reservation management system built with **Next.js**, **React**, and **TypeScript**. This application provides customers with a seamless ordering experience and provides restaurant staff with comprehensive order and reservation management tools.
 
-- Home page and menu browsing
-- Item detail pages
-- Cart and checkout
-- Order placement with unique tracking token
-- Payment integration (Stripe optional, mock fallback)
-- Order tracking page
+---
 
-## Tech
+## ✨ Features
 
-- Next.js 14 (App Router), React 18, TypeScript
-- File-based JSON storage for orders (development/demo)
-- Optional Stripe Checkout (test mode)
+### 🛍️ Customer Features
+- **Browse Menu** - Explore restaurant menu with detailed item descriptions and pricing
+- **Shopping Cart** - Add/remove items with real-time cart updates
+- **Checkout** - Secure checkout process with order confirmation
+- **Order Tracking** - Track orders in real-time using unique tracking tokens
+- **Reservations** - Book tables and manage reservations
+- **User Authentication** - Secure login/signup functionality
 
-## Getting Started
+### 👨‍💼 Admin Features
+- **Order Management** - View and manage all customer orders
+- **Status Updates** - Track order status (pending, confirmed, preparing, ready, completed)
+- **Reservation Management** - Manage table reservations and customer details
+- **Dashboard** - Comprehensive admin panel for restaurant operations
 
-1) Install dependencies
+### 💳 Payment
+- **Stripe Integration** (optional) - Secure payment processing in test mode
+- **Mock Payment Fallback** - Built-in demo payment flow when Stripe is not configured
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **Next.js 14** | React framework with App Router |
+| **React 18** | UI library |
+| **TypeScript** | Type-safe development |
+| **Stripe API** | Payment processing (optional) |
+| **JSON Storage** | Development/demo data persistence |
+
+---
+
+## � Screenshots & Demo
+
+<!-- Screenshots:
+### Home Page
+![Home Page](./docs/screenshots/home.png)
+
+### Menu Browsing
+![Menu](./docs/screenshots/menu.png)
+
+### Shopping Cart
+![Cart](./docs/screenshots/cart.png)
+
+### Admin Dashboard
+![Admin](./docs/screenshots/admin.png)
+
+### Order Tracking
+![Order Tracking](./docs/screenshots/order-tracking.png)
+-->
+
+**Note:** To add screenshots/GIFs:
+1. Create a `docs/screenshots` folder in the project root
+2. Add your PNG/GIF files to that folder
+3. Uncomment and update the paths in the README
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 16+ and npm/yarn
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Adyakumari/-Taste-of-north-restaurant-system.git
+   cd taste-of-north
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   - Navigate to `http://localhost:3000`
+
+### Build for Production
 
 ```bash
-npm install
+npm run build
+npm start
 ```
 
-2) Run the dev server
+---
 
-```bash
-npm run dev
-```
+## 🔧 Environment Variables (Optional)
 
-Visit `http://localhost:3000`.
+For **Stripe payment integration**, create a `.env.local` file in the root directory:
 
-## Environment Variables (optional for Stripe)
-
-Create `.env.local`:
-
-```
+```env
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
 STRIPE_SECRET_KEY=sk_test_...
 STRIPE_SUCCESS_URL=http://localhost:3000/order/success
 STRIPE_CANCEL_URL=http://localhost:3000/checkout?cancelled=1
 ```
 
-If Stripe keys are not present, the app uses a mock payment flow.
+**Note:** If Stripe keys are not configured, the app automatically uses a mock payment flow for testing.
 
-## Project Structure
+---
 
+## 📊 Available Scripts
+
+```bash
+npm run dev        # Start development server
+npm run build      # Build for production
+npm start          # Start production server
+npm run lint       # Run ESLint
+npm run typecheck  # Run TypeScript type checking
 ```
-app/                 # Next.js App Router pages and API routes
-components/          # UI components and providers
-data/                # Static menu data, orders JSON store
-lib/                 # Utilities and types
-styles/              # Global styles
-```
 
-## Notes
+---
 
-- Orders are stored at `data/orders.json` for local development only.
-- A short token is generated per order for tracking (share-safe).
-- For production, replace file storage with a database.
+## 💾 Data Storage
+
+### Development Mode
+- **Orders**: Stored in `data/orders.json`
+- **Reservations**: Stored in `data/reservations.json`
+- **Menu**: Stored in `data/menu.json`
+
+### Order Tracking
+- Each order receives a unique 10-character tracking token
+- Customers can share this token to track order status
+- Tokens are secure and share-safe
+
+### Production Considerations
+⚠️ **For production deployment**, replace file-based JSON storage with:
+- PostgreSQL/MySQL database
+- MongoDB
+- Firebase/Cloud Firestore
+- AWS DynamoDB
+
+---
+
+## 🔐 Security Notes
+
+- Never commit `.env.local` file to version control
+- Use strong, unique API keys for production
+- Implement proper authentication for admin routes
+- Validate all user inputs on backend
+- Use HTTPS in production
+- Implement rate limiting for API routes
+
+---
+
+## 📝 API Endpoints
+
+### Orders
+- `GET /api/orders` - Get all orders
+- `POST /api/orders` - Create new order
+- `GET /api/orders/[token]` - Get order by token
+- `POST /api/admin/orders` - Update order status (admin)
+
+### Reservations
+- `GET /api/reservations` - Get all reservations
+- `POST /api/reservations` - Create reservation
+- `GET /api/reservations/[token]` - Get reservation by token
+
+### Menu
+- `GET /api/menu` - Get menu items
+
+### Payment
+- `POST /api/payment` - Process payment
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 📧 Contact & Support
+
+For questions or support, please reach out to the project maintainers.
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/)
+- Styling with CSS
+- Payment processing by [Stripe](https://stripe.com)
+- Icons and assets from community projects
+
+---
 
 
