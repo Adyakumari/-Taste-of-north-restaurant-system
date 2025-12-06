@@ -57,11 +57,6 @@ A modern, full-stack restaurant ordering and reservation management system built
 ![Order Tracking](./docs/screenshots/order-tracking.png)
 -->
 
-**Note:** To add screenshots/GIFs:
-1. Create a `docs/screenshots` folder in the project root
-2. Add your PNG/GIF files to that folder
-3. Uncomment and update the paths in the README
-
 ---
 
 ## 🚀 Getting Started
