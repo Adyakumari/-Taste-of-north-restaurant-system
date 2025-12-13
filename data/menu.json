@@ -4,7 +4,7 @@
     "name": "Butter Chicken",
     "description": "Creamy tomato gravy with tender chicken, rich and flavorful.",
     "priceCents": 39900,
-    "image": "https://picsum.photos/seed/butterchicken/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/16/40/46/14/240_F_1640461465_JJMXiEwECADCbLFCNDyGShIMAtYSyD48.jpg",
     "category": "Mains"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Paneer Tikka",
     "description": "Smoky grilled paneer with spices and peppers.",
     "priceCents": 32900,
-    "image": "https://picsum.photos/seed/paneertikka/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/08/16/13/74/240_F_816137479_fckkfhXyBKNAPyDwoXVf9MEJXGky6LEn.jpg",
     "category": "Starters"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Dal Makhani",
     "description": "Slow-cooked black lentils in buttery sauce.",
     "priceCents": 27900,
-    "image": "https://picsum.photos/seed/dalmakhani/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/18/05/26/35/240_F_1805263509_strOsQTVypil0tBi7NE0lD9Zq2NymSzM.jpg",
     "category": "Mains"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Garlic Naan",
     "description": "Soft tandoori bread topped with garlic butter.",
     "priceCents": 8900,
-    "image": "https://picsum.photos/seed/garlicnaan/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/18/28/39/13/240_F_1828391386_fldBW5niIczHtjeL1ivpMd43TY6fHMPd.jpg",
     "category": "Breads"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Gulab Jamun",
     "description": "Warm milk-solid dumplings in rose-cardamom syrup.",
     "priceCents": 11900,
-    "image": "https://picsum.photos/seed/gulabjamun/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/16/12/69/02/240_F_1612690218_Qo5Hm4pFMOORRj9aa6deREMdkU9iumeU.jpg",
     "category": "Desserts"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Samosa",
     "description": "Crispy pastry filled with spiced potatoes and peas.",
     "priceCents": 7900,
-    "image": "https://picsum.photos/seed/samosa/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/06/75/99/95/240_F_675999596_FK9LfqExyDvy3CNjYhJmbCbQ9O8caHkK.jpg",
     "category": "Starters"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Chicken Tikka",
     "description": "Char-grilled chicken pieces marinated in spices.",
     "priceCents": 34900,
-    "image": "https://picsum.photos/seed/chickentikka/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/02/42/39/29/240_F_242392945_5Xc5VjsBFUMFR3ZZdQV1FL6LgB0XIvhD.jpg",
     "category": "Starters"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Palak Paneer",
     "description": "Spinach gravy with soft paneer cubes.",
     "priceCents": 29900,
-    "image": "https://picsum.photos/seed/palakpaneer/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/07/94/56/35/240_F_794563563_EriWXrGB1DAu2PVQfAFIeMSB2XiZekyR.jpg",
     "category": "Mains"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Chicken Biryani",
     "description": "Fragrant basmati rice layered with spiced chicken.",
     "priceCents": 35900,
-    "image": "https://picsum.photos/seed/chickenbiryani/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/16/00/70/04/240_F_1600700472_4LFfRfIxKpw2bpYhRF0tlFf58N8ZskBw.jpg",
     "category": "Mains"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Tandoori Roti",
     "description": "Whole wheat flatbread baked in a tandoor.",
     "priceCents": 6900,
-    "image": "https://picsum.photos/seed/tandooriroti/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/09/21/07/78/240_F_921077863_yRMmwiXdwW16Xjp8H7tsUB3iFQFl6JnY.jpg",
     "category": "Breads"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Rasmalai",
     "description": "Soft cheese patties soaked in saffron milk.",
     "priceCents": 13900,
-    "image": "https://picsum.photos/seed/rasmalai/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/15/58/51/10/240_F_1558511031_S6zz1WfgiCXgmve6wRhqDNCOivsHGSEP.jpg",
     "category": "Desserts"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Kheer",
     "description": "Creamy rice pudding with cardamom and nuts.",
     "priceCents": 9900,
-    "image": "https://picsum.photos/seed/kheer/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/14/78/14/13/240_F_1478141389_6lRIruiil30Hapljah7xzilnA5v0hKsL.jpg",
     "category": "Desserts"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Mango Lassi",
     "description": "Refreshing mango yogurt drink.",
     "priceCents": 6900,
-    "image": "https://picsum.photos/seed/mangolassi/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/06/63/95/79/240_F_663957999_E9oLVq0jKxPq00RyHaAHkyeoh3QfjEhx.jpg",
     "category": "Beverages"
   },
   {
@@ -108,7 +108,7 @@
     "name": "Masala Chai",
     "description": "Spiced Indian tea with milk.",
     "priceCents": 4900,
-    "image": "https://picsum.photos/seed/masalachai/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/17/01/15/82/240_F_1701158245_Q1xE2II2mtiUjFOaQlU53Baou8AErfOE.jpg",
     "category": "Beverages"
   },
   {
@@ -116,7 +116,7 @@
     "name": "Aloo Tikki",
     "description": "Crispy potato patties with chutneys.",
     "priceCents": 8900,
-    "image": "https://picsum.photos/seed/alootikki/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/18/30/80/64/240_F_1830806413_iHGjybH0Ob3EN4VrFXvuaYLbd9hQIvt9.jpg",
     "category": "Starters"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Hara Bhara Kabab",
     "description": "Spinach and pea patties with spices.",
     "priceCents": 9900,
-    "image": "https://picsum.photos/seed/harabhara/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/15/57/18/05/240_F_1557180500_eXwKYlHNkTl36vPoopnNNPISfFEp8PaN.jpg",
     "category": "Starters"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Rogan Josh",
     "description": "Kashmiri-style lamb curry with aromatic spices.",
     "priceCents": 41900,
-    "image": "https://picsum.photos/seed/roganjosh/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/08/29/53/41/240_F_829534113_ZT8Wud3FE6XA0ZJ6QABua7fnjkg1oJZk.jpg",
     "category": "Mains"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Chole Bhature",
     "description": "Spiced chickpeas with fluffy fried bread.",
     "priceCents": 29900,
-    "image": "https://picsum.photos/seed/cholebhature/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/16/45/73/21/240_F_1645732102_vZVtUjBwre6qyeOP3neEVhnrCzHJDIG5.jpg",
     "category": "Mains"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Malai Kofta",
     "description": "Soft dumplings in creamy cashew gravy.",
     "priceCents": 30900,
-    "image": "https://picsum.photos/seed/malaikofta/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/05/93/45/59/240_F_593455941_eaGCSjdTn0sclmkw4PuyJjhu2iSZMUVN.jpg",
     "category": "Mains"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Butter Naan",
     "description": "Soft naan finished with butter.",
     "priceCents": 7900,
-    "image": "https://picsum.photos/seed/butternaan/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/13/20/71/98/240_F_1320719829_K7s7uMMWELL9f8Mx9hWT45LIzGfQDem0.jpg",
     "category": "Breads"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Laccha Paratha",
     "description": "Flaky, layered whole-wheat paratha.",
     "priceCents": 9900,
-    "image": "https://picsum.photos/seed/lacchaparatha/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/13/57/24/70/240_F_1357247075_siiMdK0dt6VlOobGV2mfochhNtnGrexw.jpg",
     "category": "Breads"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Jalebi",
     "description": "Crisp spirals soaked in saffron syrup.",
     "priceCents": 9900,
-    "image": "https://picsum.photos/seed/jalebi/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/07/11/42/02/240_F_711420295_BiOlcl1vmtZaqdSwmP5r372ZYs58aEhb.jpg",
     "category": "Desserts"
   },
   {
@@ -180,7 +180,7 @@
     "name": "Kulfi",
     "description": "Dense Indian ice cream with pistachio.",
     "priceCents": 10900,
-    "image": "https://picsum.photos/seed/kulfi/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/01/41/76/88/240_F_141768845_jsbAAHDmY0zTasngshLDnKEzpwbA9noi.jpg",
     "category": "Desserts"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Sweet Lassi",
     "description": "Classic sweet yogurt drink.",
     "priceCents": 5900,
-    "image": "https://picsum.photos/seed/sweetlassi/1600/900",
+    "image": "https://t4.ftcdn.net/jpg/14/70/28/07/240_F_1470280729_0NhtnpxVnt6B2gPXRTyHr5RvEUDVXDSR.jpg",
     "category": "Beverages"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Masala Soda",
     "description": "Refreshing spiced soda with lemon.",
     "priceCents": 4900,
-    "image": "https://picsum.photos/seed/masalasoda/1600/900",
+    "image": "https://t3.ftcdn.net/jpg/15/69/78/86/240_F_1569788695_f8CrGCCmIgCxax0Xm8r4ZnAVRzxRycnx.jpg",
     "category": "Beverages"
   }
 ]
