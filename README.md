@@ -40,19 +40,24 @@ A modern, full-stack restaurant ordering and reservation management system built
 
 ## � Screenshots & Demo
 HomePage:
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/f4f4601d-a1d2-42c9-98d4-2cd2f78bcf89" />
+<img width="1470" height="881" alt="image" src="https://github.com/user-attachments/assets/0061e790-9654-44b3-9009-9ce2050d8110" />
+
 
 Menu Page:
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/f31a89ce-7253-4744-8a2e-b35495a8cd0e" />
+<img width="1470" height="848" alt="image" src="https://github.com/user-attachments/assets/5aafea56-7094-45a4-8afa-8b3a10b1fead" />
+
 
 Reservations Page:
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/2b97752b-2bc2-42de-8f56-46b490d3caeb" />
+<img width="1470" height="881" alt="image" src="https://github.com/user-attachments/assets/7ee07e39-d623-40c4-bbc6-86a85b1b5f48" />
+
 
 Cart Page:
- <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/84c53cce-e7ab-499e-80da-1315af47baaf" />
+<img width="1470" height="881" alt="image" src="https://github.com/user-attachments/assets/f020d2e4-ea91-47d7-bd6e-3714f9054c8a" />
+
 
 Orders Page:
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/fe31abd6-5425-4621-a9a5-b665de7c7258" />
+<img width="1470" height="848" alt="image" src="https://github.com/user-attachments/assets/15f5be6d-c0fb-4393-b205-a3a8be269fa2" />
+
 
 
 
