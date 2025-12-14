@@ -39,6 +39,25 @@ A modern, full-stack restaurant ordering and reservation management system built
 ---
 
 ## � Screenshots & Demo
+HomePage:
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/f4f4601d-a1d2-42c9-98d4-2cd2f78bcf89" />
+
+Menu Page:
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/f31a89ce-7253-4744-8a2e-b35495a8cd0e" />
+
+Reservations Page:
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/2b97752b-2bc2-42de-8f56-46b490d3caeb" />
+
+Cart Page:
+ <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/84c53cce-e7ab-499e-80da-1315af47baaf" />
+
+Orders Page:
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/fe31abd6-5425-4621-a9a5-b665de7c7258" />
+
+
+
+
+
 
 <!-- Screenshots:
 ### Home Page
