@@ -62,7 +62,7 @@ function Header() {
 
         {/* Right: actions + CTA (CTA slightly left by ordering first) */}
         <div className="header-actions">
-          <Link href="/menu" className="btn btn-cta">Order Now</Link>
+          <Link href="/menu" className="btn btn-cta" style={{ whiteSpace: "nowrap", minWidth: "auto", paddingLeft: "16px", paddingRight: "16px" }}>Order Now</Link>
           <form
             className="search-form"
             onSubmit={(e) => {
