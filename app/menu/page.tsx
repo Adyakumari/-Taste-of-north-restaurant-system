@@ -13,7 +13,9 @@ export default function MenuPage() {
   const { show } = useToast();
   const searchParams = useSearchParams();
   const query = (searchParams.get("search") || "").trim().toLowerCase();
-  
+  const [stepperOpen, setStepperOpen] = useState<string | null>(null);
+  const [stepperQty, setStepperQty] = useState(1);
+
 
   useEffect(() => {
     fetch("/api/menu")
@@ -86,15 +88,51 @@ export default function MenuPage() {
                 <span className="price-badge">₹{(item.priceCents / 100).toFixed(2)}</span>
                 <div style={{ display: "flex", gap: 8 }}>
                   <Link className="btn btn-outline" href={`/menu/${item.id}`}>View</Link>
-                  <button
-                    className="btn btn-accent"
-                    onClick={() => {
-                      addItem(item.id, 1);
-                      show(`Added ${item.name} to cart`);
-                    }}
-                  >
-                    Add to cart
-                  </button>
+                  {stepperOpen === item.id ? (
+                    <div style={{ display: "flex", alignItems: "center", gap: 8, background: "#fff", border: "1px solid #ddd", borderRadius: 4, padding: "4px 8px" }}>
+                      <button
+                        onClick={() => setStepperQty(Math.max(1, stepperQty - 1))}
+                        style={{ background: "none", border: "none", cursor: "pointer", fontSize: 18, padding: "2px 6px", fontWeight: "bold" }}
+                      >
+                        −
+                      </button>
+                      <span style={{ minWidth: 30, textAlign: "center", fontWeight: "600" }}>{stepperQty}</span>
+                      <button
+                        onClick={() => setStepperQty(stepperQty + 1)}
+                        style={{ background: "none", border: "none", cursor: "pointer", fontSize: 18, padding: "2px 6px", fontWeight: "bold" }}
+                      >
+                        +
+                      </button>
+                      <button
+                        className="btn btn-accent"
+                        onClick={() => {
+                          addItem(item.id, stepperQty);
+                          show(`Added ${stepperQty}x ${item.name} to cart`);
+                          setStepperOpen(null);
+                          setStepperQty(1);
+                        }}
+                        style={{ padding: "6px 12px", fontSize: 12 }}
+                      >
+                        Add
+                      </button>
+                      <button
+                        onClick={() => {
+                          setStepperOpen(null);
+                          setStepperQty(1);
+                        }}
+                        style={{ background: "none", border: "1px solid #ccc", cursor: "pointer", borderRadius: 3, padding: "4px 8px", fontSize: 12 }}
+                      >
+                        ✕
+                      </button>
+                    </div>
+                  ) : (
+                    <button
+                      className="btn btn-accent"
+                      onClick={() => setStepperOpen(item.id)}
+                    >
+                      Add to cart
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

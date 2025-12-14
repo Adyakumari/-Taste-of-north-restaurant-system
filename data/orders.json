@@ -63,5 +63,32 @@
     "status": "ready",
     "paymentMethod": "card",
     "createdAt": "2025-12-13T18:14:23.620Z"
+  },
+  {
+    "id": "uQgvhhY5eBfduHS6K1ytW",
+    "token": "CPpdR2tYNZ",
+    "items": [
+      {
+        "itemId": "paneer-tikka",
+        "quantity": 1
+      },
+      {
+        "itemId": "samosa",
+        "quantity": 1
+      },
+      {
+        "itemId": "chicken-tikka",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "name": "Abhishek Kumar",
+      "email": "ad@gmail.com",
+      "phone": "6540542156"
+    },
+    "totalCents": 75700,
+    "status": "preparing",
+    "paymentMethod": "cod",
+    "createdAt": "2025-12-14T12:35:48.536Z"
   }
 ]
